@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_rate"
+        android:title="@string/action_rate"
+        android:icon="@drawable/ic_action_important"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/more_apps"
+        android:title="@string/more_apps"
+        android:icon="@drawable/ic_action_labels"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/content_rss"
+        android:title="@string/content_rss"
+        android:icon="@drawable/ic_my_rss"
+        app:showAsAction="always" />
+
+
+        <item android:id="@+id/action_cancel"
+        android:title="@string/action_cancel"
+        android:icon="@drawable/ic_action_cancel"
+        app:showAsAction="always" />
+
+</menu>
+

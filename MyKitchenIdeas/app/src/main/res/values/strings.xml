@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">100 Kitchen Storage Ideas</string>
+
+    <string name="action_share" translatable="false">Share</string>
+    <string name="action_rate" translatable="false">Rate</string>
+    <string name="more_apps" translatable="false">More Apps</string>
+    <string name="content_rss" translatable="false">Web</string>
+    <string name="action_cancel" translatable="false">Exit</string>
+
+
+
+</resources>

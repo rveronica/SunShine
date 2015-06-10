@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/i1"
+            android:scaleType="centerCrop"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fec3c3c8"
+            android:layout_weight="2"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/bPrevious"
+                android:text="@string/prev"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/bMore"
+                android:text="@string/more"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:textSize="16dp"
+                android:background="@drawable/starlight"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/bNext"
+                android:text="@string/next"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+

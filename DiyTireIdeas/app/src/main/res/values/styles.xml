@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--меняем стиль кнопок    Часть 1    -->
+        <!--<item name="android:buttonStyle">@style/ButtonTheme</item>-->
+        
+        <!--&lt;!&ndash;меняем цвет ActionBar Часть1&ndash;&gt;
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/ActionBarStyle</item>
+        &lt;!&ndash; Support library compatibility &ndash;&gt;
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+-->
+    </style>
+
+    <!--<style name="ActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+        &lt;!&ndash; Support library compatibility &ndash;&gt;
+        <item name="background">@drawable/actionbar_background</item>
+    </style>-->
+
+    <!--&lt;!&ndash;меняем стиль кнопок    Часть 2   &ndash;&gt;
+    <style name="ButtonTheme" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textStyle">bold</item>
+    </style>-->
+
+</resources>

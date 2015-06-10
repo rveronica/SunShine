@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+       <!-- <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@raw/i0"
+            android:scaleType="centerCrop"
+            android:clickable="false" />-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#7000"
+            android:minHeight="40dp"
+            android:divider="#fff0f0f0"
+            android:id="@+id/myLinearLayout"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/action_save"
+                android:layout_height="48dp"
+                android:layout_width="48dp"
+                android:background="@drawable/ic_action_save"
+                android:gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/view_as_grid"
+                android:layout_height="48dp"
+                android:layout_width="48dp"
+                android:background="@drawable/ic_action_view_as_grid"
+                android:gravity="center" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:layout_height="48dp"
+                android:layout_width="48dp"
+                android:id="@+id/full_screen"
+                android:background="@drawable/ic_action_full_screen"
+                android:gravity="center"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:id="@+id/return_from_full_screen"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_action_return_from_full_screen"
+        android:visibility="gone"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

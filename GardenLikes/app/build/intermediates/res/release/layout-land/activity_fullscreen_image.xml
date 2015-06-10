@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ProgressBar
+        android:id="@+id/pbLoader"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"></ProgressBar>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="7dp">
+
+            <LinearLayout
+                android:id="@+id/llDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@drawable/likebutton"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="2dp"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/ic_action_save"
+                    android:padding="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llLike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:background="@drawable/likebutton"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/ic_action_favorite"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:background="@drawable/likebutton"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/ic_action_share"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llMore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="2dp"
+                android:background="@drawable/likebutton"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/ic_action_important"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Veronica/AndroidStudioProjects/GardenLikes/app/src/main/res/layout-land/activity_fullscreen_image.xml -->

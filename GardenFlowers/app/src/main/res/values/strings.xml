@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Твой Цветник</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="more">НОВЫЕ ИДЕИ</string>
+    <string name="next">ВПЕРЕД</string>
+    <string name="prev">НАЗАД</string>
+
+    <string name="action_share" translatable="false">Share</string>
+    <string name="action_save" translatable="false">Save</string>
+    <string name="action_rate" translatable="false">Rate</string>
+    <string name="action_cancel" translatable="false">Exit</string>
+
+
+
+</resources>
